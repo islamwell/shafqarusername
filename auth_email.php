@@ -29,3 +29,22 @@ $string['auth_emailrecaptcha_key'] = 'Enable reCAPTCHA element';
 $string['auth_emailsettings'] = 'Settings';
 $string['pluginname'] = 'Email-based self-registration';
 $string['privacy:metadata'] = 'The Email-based self-registration authentication plugin does not store any personal data.';
+// Gnuwings 17/07/2021
+$string['emailconfirmation'] = 'Hi {$a->firstname},
+
+A new account has been requested at \'{$a->sitename}\'
+using your email address.
+
+Your username is {$a->username}
+
+To confirm your new account, please go to this web address:
+
+{$a->link}
+
+In most mail programs, this should appear as a blue link
+which you can just click on.  If that doesn\'t work,
+then cut and paste the address into the address
+line at the top of your web browser window.
+
+If you need help, please contact the site administrator,
+{$a->admin}';
